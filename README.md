@@ -11,6 +11,7 @@ Simple Grid Editor in Unity
   - Select (LEFT-CLICK)
   - Deselect (ESCAPE)
   - Delete (BACKSPACE)
+  - Snaps to grid after mouse-release
   - Type and Position are saved after application quit
 - Raycasting usage
 - Slider to change grid size and length in runtime 

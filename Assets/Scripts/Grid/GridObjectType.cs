@@ -1,6 +1,6 @@
 using System;
 
-namespace Praktikum.Scenes.Grid_Editor.Assets.Scripts.Grid
+namespace Assets.Scripts.Grid
 {
     
     [Serializable]

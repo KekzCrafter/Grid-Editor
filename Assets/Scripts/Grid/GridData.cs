@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Praktikum.Scenes.Grid_Editor.Assets.Scripts.Grid
+namespace Assets.Scripts.Grid
 {
     public class GridData
     {

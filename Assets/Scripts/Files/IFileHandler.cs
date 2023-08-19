@@ -1,6 +1,6 @@
-using Praktikum.Scenes.Grid_Editor.Assets.Scripts.Grid;
+using Assets.Scripts.Grid;
 
-namespace Praktikum.Scenes.Grid_Editor.Assets.Scripts.Files
+namespace Assets.Scripts.Files
 {
     public interface IFileHandler
     {

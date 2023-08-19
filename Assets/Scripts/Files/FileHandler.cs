@@ -1,9 +1,9 @@
 using System;
 using System.IO;
-using Praktikum.Scenes.Grid_Editor.Assets.Scripts.Grid;
+using Assets.Scripts.Grid;
 using UnityEngine;
 
-namespace Praktikum.Scenes.Grid_Editor.Assets.Scripts.Files
+namespace Assets.Scripts.Files
 {
     public class FileHandler : IFileHandler
     {

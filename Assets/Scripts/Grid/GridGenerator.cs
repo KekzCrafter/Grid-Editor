@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Praktikum.Scenes.Grid_Editor.Assets.Scripts.Files;
+using Assets.Scripts.Files;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
-namespace Praktikum.Scenes.Grid_Editor.Assets.Scripts.Grid
+namespace Assets.Scripts.Grid
 {
     public class GridGenerator : MonoBehaviour
     {

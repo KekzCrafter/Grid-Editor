@@ -663,7 +663,7 @@ Camera:
   field of view: 60
   orthographic: 0
   orthographic size: 5
-  m_Depth: -1
+  m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -705,9 +705,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bc8c43d3ada30a4eb3666b2640bbfce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveFactor: 50
+  moveFactor: 25
   zoomFactor: 150
-  rotationFactor: 100
+  rotationFactor: 75
   height: 20
 --- !u!1 &1046713406
 GameObject:
@@ -1230,8 +1230,8 @@ MonoBehaviour:
   capsulePrefab: {fileID: 7537408850998732028, guid: 92f75670c6a573a46afe48bd9ba522cb, type: 3}
   slider: {fileID: 1263123743}
   lengthSlider: {fileID: 513236655}
-  length: 50
-  gridSize: 5
+  length: 100
+  gridSize: 10
 --- !u!4 &1819382653
 Transform:
   m_ObjectHideFlags: 0

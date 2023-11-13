@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour {
 
-    [SerializeField] private float moveFactor = 10f;
+    [SerializeField] private float moveFactor = 25f;
     [SerializeField] private float zoomFactor = 150f;
-    [SerializeField] private float rotationFactor = 100f;
+    [SerializeField] private float rotationFactor = 75f;
     [SerializeField] private float height = 20f;
     
     private Camera _mainCamera;

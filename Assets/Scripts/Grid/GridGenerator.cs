@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Assets.Scripts.Files;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
@@ -328,7 +329,10 @@ namespace Assets.Scripts.Grid
             {
                 worldPosition.z = max;
             }
-            
+
+            var snapPosition = GetNearestGridPointFromPosition(worldPosition);
+            Debug.DrawLine(worldPosition, snapPosition, Color.yellow);
+
             _selectedObject.position = worldPosition;
         }
 
